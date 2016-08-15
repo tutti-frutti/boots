@@ -1,0 +1,8 @@
+.about-us {
+    text-align: center;
+    &__item {
+        display: inline-block;
+        width: 275px;
+        text-align: left;
+    }
+}
