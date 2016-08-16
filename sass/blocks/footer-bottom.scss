@@ -1,0 +1,16 @@
+.footer-bottom {
+    min-height: 50px;
+    line-height: 50px;
+    background: #1b1718;
+    &__left {
+        @include seg-l(12px, 50px);
+        color: #fff;
+    }
+    &__link {
+        @include seg-l(12px, 50px);
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+}

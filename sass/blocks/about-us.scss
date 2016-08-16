@@ -9,6 +9,16 @@
         text-align: left;
         border-bottom: 1px dotted #9f9f9f;
         color: #444444;
+        &--mb {
+            margin-bottom: 85px;
+            
+             @media #{$mobile} {
+                margin-bottom: 30px;
+    }
+        }
+    }
+    &__list {
+        margin-bottom: 20px;
     }
     &__item {
         display: inline-block;
@@ -21,15 +31,25 @@
         &:last-child {
             margin-right: 0;
         }
+        
+         @media #{$mobile} {
+                margin-bottom: 30px;
+                margin-right: 0;
+    }
     }
     &__thumb {
-        margin-bottom: 10px;
+//        margin-bottom: 10px;
     }
     &__title {
-        margin-bottom: 10px;
+//        margin-bottom: 10px;
     }
     &__link-t {
         @include rob-l(15px, 50px);
+        text-transform: uppercase;
         color: #444444;
+    }
+    &__link {
+        @include seg-reg(13px, 20px);
+        color: #949494;
     }
 }

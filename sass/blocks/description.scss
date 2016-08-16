@@ -2,12 +2,24 @@
     margin-top: 45px;
     margin-bottom: 80px;
     text-align: center;
+    
+    &__block {
+        @media #{$mobile} {
+        margin: 30px;
+    }
+    }
+    
+    
+    
     &__title {
         @include seg-l(30px, 20px);
         position: relative;
         padding-top: 145px;
         margin-bottom: 30px;
         color: #5a5b5c;
+            @media #{$mobile} {
+            padding-top: 120px;
+    }
         &::before {
             position: absolute;
             content: "";

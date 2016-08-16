@@ -1,0 +1,29 @@
+.footer {
+    padding-top: 40px;
+    background: #3b3536;
+    &__title {
+        @include ops-ebold(17px, 25px);
+        margin-bottom: 15px;
+        color: #fff;
+    }
+    &__link {
+        @include seg-l(13px, 25px);
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+    &__text {
+        @include seg-l(13px, 18px);
+        margin-bottom: 30px;
+        color: #fff;
+    }
+    &__btn {
+        padding-right: 45px;
+        height: 50px;
+        width: 195px;
+        border: 1px solid #c8e124;
+        color: #110101;
+        background: #c8e124 url("../img/btn-icon.png") 160px 12px no-repeat;
+    }
+}

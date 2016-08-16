@@ -7,9 +7,17 @@
     &__wrapper {
         position: absolute;
         top: -35px;
+        
+        @media #{$mobile} {
+        position: static;
+        margin-top: 30px;
+    }
     }
     &__descr {
         margin-top: 70px;
+        @media #{$mobile} {
+            margin-bottom: 30px;
+    }
     }
     &__title {
         @include seg-l(22px, 25px);
