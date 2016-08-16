@@ -1,0 +1,15 @@
+.btn {
+    @include ops-reg(18px, 24px);
+    display: block;
+    height: 45px;
+    padding-top: 10px;
+    text-align: center;
+//    border: 1px solid #d9efff;
+//    border-radius: 50px;
+//    background: transparent;
+//    color: #fff;
+    
+    &:hover {
+        opacity: .75;
+    }
+}
