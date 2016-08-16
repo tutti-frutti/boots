@@ -1,4 +1,7 @@
 .slider {
+    &--mt{
+        margin-top: 20px;
+    }
     min-height: 40px;
 	background: url("../img/main-block-bg.png") 0 0 no-repeat;
     background-size: cover;

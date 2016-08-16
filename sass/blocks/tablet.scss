@@ -1,3 +1,40 @@
 .tablet {
+    min-height: 410px;
 	background: #0c0905;
+    &__img {
+        position: relative;
+    }
+    &__wrapper {
+        position: absolute;
+        top: -35px;
+    }
+    &__descr {
+        margin-top: 70px;
+    }
+    &__title {
+        @include seg-l(22px, 25px);
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    &__text {
+        @include seg-l(13px, 20px);
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    &__btn {
+        padding-right: 45px;
+        height: 50px;
+        width: 205px;
+        border: 1px solid #c8e124;
+        color: #110101;
+        background: #c8e124 url("../img/btn-icon.png") 160px 12px no-repeat;
+        
+//        &::before {
+//            position: absolute;
+//            content: '';
+//            background: url("../img/decor-bg.png") 10px 0 no-repeat;
+//            z-index: 1;
+//        }
+    }
 }

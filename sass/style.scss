@@ -1,7 +1,14 @@
+@import "mixins.scss";
+@import "variables.scss";
+
 @import "blocks/columns.scss";
 @import "blocks/nav.scss";
 @import "blocks/slider.scss";
 @import "blocks/tablet.scss";
 @import "blocks/about-us.scss";
+@import "blocks/header.scss";
+@import "blocks/description.scss";
 
 @import "global/scaffolding.scss";
+@import "global/fonts.scss";
+@import "global/btn.scss";

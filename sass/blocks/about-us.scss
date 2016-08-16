@@ -1,8 +1,35 @@
 .about-us {
+    padding-top: 55px;
     text-align: center;
+    background: url("../img/main-block-bg.png") 0 0 no-repeat;
+    background-size: cover;
+    &__name {
+        @include seg-l(30px, 50px);
+        margin-bottom: 15px;
+        text-align: left;
+        border-bottom: 1px dotted #9f9f9f;
+        color: #444444;
+    }
     &__item {
         display: inline-block;
+        margin-right: 55px;
+        padding: 5px;
         width: 275px;
         text-align: left;
+        border: 1px solid #ebebeb;
+        background: #fff;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__thumb {
+        margin-bottom: 10px;
+    }
+    &__title {
+        margin-bottom: 10px;
+    }
+    &__link-t {
+        @include rob-l(15px, 50px);
+        color: #444444;
     }
 }

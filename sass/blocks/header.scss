@@ -1,0 +1,31 @@
+.header {
+    min-height: 85px;
+    line-height: 85px;
+    text-align: center;
+    background: #2e2729;
+    &__item{
+        margin-right: 40px;
+    }
+    &__nav {
+        display: inline-block;
+        margin-bottom: 0;
+        line-height: normal;
+        vertical-align: middle;
+        background: #2e2729;
+        border: #2e2729;
+    }
+    &__logo {
+        padding: 3px 15px;
+    }
+    
+    &__link {
+            @include ops-sm(18px, 18px);
+            text-transform: uppercase;
+        
+        &--title {
+            @include seg-sm(35px, 18px);
+            text-transform: none;
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@mixin seg-sm($font-size, $line-height) {
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-style: normal;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
+@mixin seg-l($font-size, $line-height) {
+    font-family: "Segoe UI";
+    font-weight: 300;
+    font-style: normal;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
+@mixin ops-sm($font-size, $line-height) {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
+@mixin ops-reg($font-size, $line-height) {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
+@mixin rob-l($font-size, $line-height) {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: normal;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
