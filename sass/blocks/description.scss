@@ -1,11 +1,15 @@
 .description {
     margin-top: 45px;
-    margin-bottom: 80px;
+    padding-bottom: 70px;
     text-align: center;
+    
+     @media #{$mobile} {
+        padding-bottom: 30px;
+    }
     
     &__block {
         @media #{$mobile} {
-        margin: 30px;
+        margin-bottom: 30px;
     }
     }
     
@@ -14,11 +18,12 @@
     &__title {
         @include seg-l(30px, 20px);
         position: relative;
-        padding-top: 145px;
+        padding-top: 130px;
         margin-bottom: 30px;
         color: #5a5b5c;
             @media #{$mobile} {
             padding-top: 120px;
+            margin-bottom: 15px;
     }
         &::before {
             position: absolute;
@@ -28,7 +33,7 @@
             margin-left: -52px;
             width: 104px;
             height: 104px;
-            border: 8px solid #000;
+            border: 7px solid #000;
             border-radius: 100%;
         }
         
@@ -43,6 +48,8 @@
             background: #c8e124;
             border-radius: 100%;
         }
+        
+        
     }
     
     &__icon-1 {
@@ -95,6 +102,7 @@
     
     &__text {
         @include seg-l(13px, 20px);
+        padding-left: 20px;
         text-align: justify;
         color: #777879;
         

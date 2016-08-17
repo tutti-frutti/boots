@@ -5,7 +5,38 @@
     background: #2e2729;
     &__item{
         margin-right: 40px;
+        @media #{$mobile} {
+            margin-top: 15px;
+            margin-right: 0;
+        }
+        @media #{$tablet} {
+            margin-right: 0px;
+        }
+        @media #{$desktop} {
+//            margin-right: 30px;
+        }
     }
+    
+    &__item-1 {
+        margin-right: 13px;
+    }
+    
+    &__item-2 {
+        margin-right: 58px;
+    }
+    
+    &__item-3 {
+        margin-right: 64px;
+    }
+    
+    &__item-4 {
+        margin-right: 62px;
+    }
+    
+    &__item-5 {
+        margin-right: 15px;
+    }
+    
     &__nav {
         display: inline-block;
         margin-bottom: 0;
@@ -13,9 +44,16 @@
         vertical-align: middle;
         background: #2e2729;
         border: #2e2729;
+        @media #{$mobile} {
+            display: block;
+        }
     }
     &__logo {
+        margin-top: -18px;
         padding: 3px 15px;
+        @media #{$mobile} {
+            display: none;
+        }
     }
     
     &__link {
